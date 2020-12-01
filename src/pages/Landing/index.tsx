@@ -12,7 +12,12 @@ const Landing: React.FC = () => (
         <section>
           <strong>Tênis de caminhada</strong>
           <span>R$ 179,99</span>
-          <button type="button">Adicionar ao carrinho</button>
+          <button type="button">
+            <div>
+              <span>1</span>
+            </div>
+            <strong>Adicionar ao carrinho</strong>
+          </button>
         </section>
       </Product>
 
@@ -21,7 +26,12 @@ const Landing: React.FC = () => (
         <section>
           <strong>Tênis de caminhada</strong>
           <span>R$ 179,99</span>
-          <button type="button">Adicionar ao carrinho</button>
+          <button type="button">
+            <div>
+              <span>1</span>
+            </div>
+            <strong>Adicionar ao carrinho</strong>
+          </button>
         </section>
       </Product>
 
@@ -30,7 +40,12 @@ const Landing: React.FC = () => (
         <section>
           <strong>Tênis de caminhada</strong>
           <span>R$ 179,99</span>
-          <button type="button">Adicionar ao carrinho</button>
+          <button type="button">
+            <div>
+              <span>1</span>
+            </div>
+            <strong>Adicionar ao carrinho</strong>
+          </button>
         </section>
       </Product>
     </ProductsList>

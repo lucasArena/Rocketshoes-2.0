@@ -10,8 +10,14 @@ export const Container = styled.menu`
 `;
 
 export const CartArea = styled.aside`
-  color: ${(props) => props.theme.colors.text};
-
   display: flex;
   flex-direction: column;
+
+  color: ${(props) => props.theme.colors.text};
+  font-family: 'Roboto';
+  text-align: right;
+
+  span {
+    color: ${(props) => props.theme.colors.textSecundary};
+  }
 `;
